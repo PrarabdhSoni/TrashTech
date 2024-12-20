@@ -1,0 +1,183 @@
+/* General Styles for Reports Section */
+.reports-container {
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .reports-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #27ae60;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #27ae60;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .sub-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #34495e;
+  }
+  
+  /* Input Fields */
+  label {
+    display: block;
+  }
+  
+  input,
+  textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    resize: none;
+    margin-top: 5px;
+  }
+  
+  input {
+    width: 50%;
+  }
+  
+  textarea {
+    width: 90%;
+    height: 150px;
+  }
+  
+  textarea:focus,
+  input:focus {
+    border-color: #27ae60;
+  }
+  
+  .input-field + .input-field {
+    margin-top: 20px;
+  }
+  
+  .submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .submit-button {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #219150;
+  }
+  
+  .separator {
+    margin: 30px 0;
+    border: 0;
+    border-top: 2px solid #ddd;
+  }
+  
+  /* Reports Table */
+  .reports-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reports-table th,
+  .reports-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .reports-table th {
+    background-color: #2c3e50;
+    color: #fff;
+  }
+  
+  .report-row.in-process {
+    background-color: #ffebee; /* Soft red for in-process */
+    color: #d32f2f;
+  }
+  
+  .report-row.solved {
+    background-color: #e3f2fd; /* Soft blue for solved */
+    color: #1976d2;
+  }
+  
+  /* Dropdown Button */
+  .dropdown-button {
+    background-color: #27ae60;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #1e8449;
+  }
+  
+  /* Expanded Row for Message */
+  .message-row {
+    background-color: #f4f4f4;
+    text-align: left;
+    padding: 10px;
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  
+  /* Contact Us Section */
+  .contact-us {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .contact-us h2 {
+    font-size: 1.8rem;
+    color: #27ae60;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us p {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin: 5px 0;
+  }
+  
+  /* Separator Line */
+  .separator {
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #ddd;
+  }
+  
+  /* Action Buttons */
+  .mark-solved-button {
+    background-color: #3498db;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mark-solved-button:hover {
+    background-color: #21618c;
+  }
+  
